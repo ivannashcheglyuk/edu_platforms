@@ -33,9 +33,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
-
+Here's a walkthrough of implemented required features: 
+split into two parts
+Part 1:
 👉🏿<img src='https://github.com/ivannashcheglyuk/edu_platforms/blob/main/E.P1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Part 2:
+<img src='https://github.com/ivannashcheglyuk/edu_platforms/blob/main/E.P2.gif'
 
 GIF created with Bandicam and EZGIF.
 <!-- Recommended tools:
