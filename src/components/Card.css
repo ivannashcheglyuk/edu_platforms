@@ -1,7 +1,7 @@
 .creator-card {
   width: 250px;
   background-color: #a89f9f;
-  color: #50453d;
+  color: #0b1764;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -66,12 +66,43 @@
 
 
 .creator-card img {
-  width: 240px;        /* or whatever fits nicely inside the card */
-  height: 120px;       /* make all images same height */
-  object-fit: contain; /* keeps the aspect ratio, no stretching */
-  background-color: #bfbebe; /* optional: for logos with transparent background */
-  padding: 5px;        /* optional: some space around small logos */
+  width: 240px;        
+  height: 120px;       
+  object-fit: contain; 
+  background-color: #bfbebe; 
+  padding: 5px;     
   margin-bottom: 0.5rem;
-  border-radius: 8px;  /* optional: rounded corners if you like */
+  border-radius: 8px;  
+} 
+.creator-card img {
+  width: 240px;        
+  height: 120px;     
+  object-fit: contain; 
+  background-color: #bfbebe; 
+  padding: 5px;        
+  margin-bottom: 0.5rem;
+  border-radius: 8px; 
 }
 
+.btn-youtube {
+  display: inline-flex;       
+  align-items: center;       
+  justify-content: center;    
+  margin-bottom: 0.5rem;
+  width: 36px;              
+  height: 36px;
+  border-radius: 50%;         
+  background-color: #755755;  
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-youtube:hover {
+  background-color: #c9c1c1;
+}
+
+.btn-youtube svg {
+  width: 18px;
+  height: 18px;
+}

@@ -28,7 +28,7 @@ function App() {
 
       <main className="main-content">
         <header className="header">
-          <h1>🌟 Educational Platforms</h1>
+          <h1 className="main-title">🌟 Educational Platforms</h1>
         </header>
 
         {element}

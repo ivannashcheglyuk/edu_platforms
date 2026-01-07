@@ -10,6 +10,7 @@ const AddCreator = () => {
     url: '',
     description: '',
     imageURL: '',
+    youtube_url: '',
   });
 
   const handleChange = (e) => {
@@ -32,6 +33,7 @@ const AddCreator = () => {
           url: creator.url,
           description: creator.description,
           imageURL: creator.imageURL,
+          youtube_url: creator.youtube_url,
         },
       ]);
 
@@ -59,6 +61,10 @@ const AddCreator = () => {
 
         <label>Image URL (optional):</label>
         <input type="text" name="imageURL" value={creator.imageURL} onChange={handleChange} />
+
+        <label>YouTube Channel:</label>
+        <input type="text" name="youtube_url" placeholder="https://www.youtube.com/@khanacademy" value={creator.youtube_url} onChange={handleChange}
+/>
 
         <button type="submit">Add Creator</button>
       </form>

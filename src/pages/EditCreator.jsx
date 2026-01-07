@@ -11,6 +11,7 @@ const EditCreator = () => {
     url: '',
     description: '',
     imageURL: '',
+    youtube_url: '',
   });
   const [loading, setLoading] = useState(true);
 
@@ -45,6 +46,7 @@ const EditCreator = () => {
 
     if (error) {
       console.error('Error updating creator:', error);
+      alert('Failed to update creator.');
     } else {
       alert('Creator updated!');
       navigate('/'); // Go back to home page
@@ -65,6 +67,7 @@ const EditCreator = () => {
 
     if (error) {
       console.error('Error deleting creator:', error);
+      alert('Failed to delete creator.');
     } else {
       alert('Creator deleted!');
       navigate('/'); // Go back to home page
@@ -85,6 +88,7 @@ const EditCreator = () => {
             onChange={(e) => setCreator({ ...creator, name: e.target.value })}
           />
         </label>
+
         <label>
           URL:
           <input
@@ -93,6 +97,7 @@ const EditCreator = () => {
             onChange={(e) => setCreator({ ...creator, url: e.target.value })}
           />
         </label>
+
         <label>
           Description:
           <textarea
@@ -102,6 +107,7 @@ const EditCreator = () => {
             }
           />
         </label>
+
         <label>
           Image URL:
           <input
@@ -112,10 +118,22 @@ const EditCreator = () => {
             }
           />
         </label>
+
+        <label>
+          YouTube Channel:
+          <input
+            type="text"
+            placeholder="https://www.youtube.com/@channel"
+            value={creator.youtube_url || ''}
+            onChange={(e) =>
+              setCreator({ ...creator, youtube_url: e.target.value })
+            }
+          />
+        </label>
+
         <button type="submit">Update Creator</button>
       </form>
 
-     
       <button
         onClick={handleDelete}
         style={{ marginTop: '1rem', backgroundColor: 'red', color: 'white' }}

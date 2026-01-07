@@ -80,3 +80,10 @@ button:focus-visible {
 .sidebar .links a + a {
   margin-left: 1rem;  /* space between links */
 }
+
+.main-title {
+  text-align: center;
+  margin-top: 2rem; /* optional spacing from top */
+  font-size: 3rem;  /* optional larger font */
+  color: #1f1b5e;   /* optional color */
+}
