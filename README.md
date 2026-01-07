@@ -38,7 +38,8 @@ split into two parts
 Part 1:
 👉🏿<img src='https://github.com/ivannashcheglyuk/edu_platforms/blob/main/E.P1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Part 2:
-<img src='https://github.com/ivannashcheglyuk/edu_platforms/blob/main/E.P2.gif'
+<img src='https://github.com/ivannashcheglyuk/edu_platforms/blob/main/E.P2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 GIF created with Bandicam and EZGIF.
 <!-- Recommended tools:
@@ -57,7 +58,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [2026] [Ivanna Shcheglyuk]
+Copyright 2026 Ivanna Shcheglyuk
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
